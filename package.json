@@ -5,8 +5,11 @@
   "version": "0.1.0",
   "author": "Kyle Mathews <mathews.kyle@gmail.com>",
   "dependencies": {
+    "@emotion/core": "10.0.22",
+    "@emotion/styled": "10.0.23",
     "gatsby": "2.13.73",
     "gatsby-image": "2.2.10",
+    "gatsby-plugin-emotion": "4.1.16",
     "gatsby-plugin-manifest": "2.2.6",
     "gatsby-plugin-offline": "2.2.7",
     "gatsby-plugin-react-helmet": "3.1.4",
@@ -19,6 +22,7 @@
     "react-helmet": "5.2.1"
   },
   "devDependencies": {
+    "babel-plugin-emotion": "10.0.23",
     "prettier": "1.18.2"
   },
   "keywords": [
@@ -27,8 +31,8 @@
   "license": "MIT",
   "scripts": {
     "build": "gatsby build",
-   "develop": "gatsby develop",
-   "start:playground": "SET GATSBY_GRAPHQL_IDE=playground&gatsby develop",
+    "develop": "gatsby develop",
+    "start:playground": "SET GATSBY_GRAPHQL_IDE=playground&gatsby develop",
     "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
     "start": "npm run develop",
     "serve": "gatsby serve",
